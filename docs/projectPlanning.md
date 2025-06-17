@@ -55,3 +55,9 @@ https://app.mural.co/t/savvycoderscapstoneproject3910/m/savvycoderscapstoneproje
 
 FLOW CHART:
 ![alt text](<Capstone Flow Chart-2.jpeg>)
+
+
+Wire Frame:
+![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091S8MGD5G/img_0026.jpg)
+![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091QE8U0Q5/img_0028.jpg)
+![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091SHP0K36/img_0029.jpg)
