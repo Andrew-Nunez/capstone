@@ -58,6 +58,6 @@ FLOW CHART:
 
 
 Wire Frame:
-![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091S8MGD5G/img_0026.jpg)
-![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091QE8U0Q5/img_0028.jpg)
-![alt text](https://files.slack.com/files-pri/T09CULVUZ-F091SHP0K36/img_0029.jpg)
+![alt text](c:\Users\Andrew\Pictures\Screenshots\Screenshot 2025-06-17 114249.png)
+![alt text](c:\Users\Andrew\Pictures\Screenshots\Screenshot 2025-06-17 114412.png)
+![alt text](c:\Users\Andrew\Pictures\Screenshots\Screenshot 2025-06-17 114425.png)
