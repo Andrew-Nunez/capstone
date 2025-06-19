@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(68, 65, 65);
+}
+
+.nav-bar {
+  color: antiquewhite;
+}
+
+h1,
+p {
+  color: antiquewhite;
+}
+
+h1 {
+  font-family:;
+}
+
+h1 {
+  font-family: "Splash", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+  color: rgb(159, 137, 15);
+}
+
+nav:hover {
+  color: blue;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+
+.nav-bar ul li {
+display: inline-block;
+margin-right: 10px;
+
+}
+
+
+
+
+footer{
+  color: antiquewhite;
+}
+
+
+h1,
+p,
+h2,
+main,
+nav {
+  text-align: center
+  ;
+}
+
+p{
+  padding-left: 500px;
+}
+
+
+body{
+  background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
