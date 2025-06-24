@@ -1,46 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8"/>
-    <title>LIQID Trading</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
-<link rel="icon" type ="image" href= "favicon - Copy.jpg">
-  </head>
-  <body>
-  <div id="root" > </div>
-  <script typer="module" src="index.js"> </script>
-</body>
-</html>
+import html from "html-literal";
+
+export default () => html`
+  <section id="bio">
 
 
-
-
-
-
-<h1 class="LIQID">L   I   Q   I   D</h1>
-<h2 class="famous qoute">""We become what we consistently do." - Brett Steenbarger"</h2>
-    </div>
-  </header>
-
-  <nav>
-    <div>
-<nav class="nav-bar">
-  <ul>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Who are you?</li>
-    </ul>
-</div>
-</nav>
-
-
-
-
-
-    <main>
       <h3>About</h3>
         <p>Why was LIQID created?</p>
         <p>Research shows a large majority of traders, particularly day traders, fail and quit within a relatively short period. This failure is directly related to the lack of success most will experience as further research shows that a staggering 95% of people will lose money and never reach profitability regardless of the amount of time spent in the market...</p>
@@ -52,35 +15,7 @@
         <p>Are you ready to beat the odds...?</p>
 
 
-      <h4>Who Are You?</h4>
-        <p>(This will be my questionairre that i need help with)</p>
-        <ol>
-        <li>NAME</li>
-        <li>LOCATION</li>
-        <li>Within which window of time are you regularly available?(Mon-Fri)</li>
-        <ol>
-          <li>10PM-2AM</li>
-          <li>2AM-6AM</li>
-          <li>6AM-10AM</li>
-        </ol>
-
-      <h5>Contact</h5>
-        <ol>
-          <ul>- LIQIDCAP@GMAIL.COM</ul>
-          <ul>- Linkedin</ul>
-          <ul><a href="htps://www.discord.com">&#39;- Link to my paid training course</a></ul>
 
 
-
-        </ol>
-
-
-
-    </main>
-
-
-
-<footer>LIQID TRADING</footer>
-    <script src="index.js"></script>
-  </body>
-</html>
+</section>
+`;
