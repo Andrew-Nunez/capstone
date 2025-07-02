@@ -4,7 +4,10 @@ main {
 }
 
 
-
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
 
 body {
@@ -50,8 +53,6 @@ nav:hover {
 
 .nav-bar ul li {
 display: inline-block;
-margin-right: 10px;
-
 }
 
 
@@ -83,5 +84,79 @@ body{
   background-position: center;
 }
 
+.floatingBox{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
+
+.floatingBox2{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
 
 
+.floatingBox3{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+
+
+
+@media (min-width: 550px) {
+nav > ul {
+    background-color: rgba(0, 0, 0, 0.833);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px 10px 15px;
+    margin-left: 0px !important;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+  }
+
+  nav > .fa-bars {
+    display: none;
+  }
+
+  nav{
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+  }
+
+  body{
+    padding-top: 50px;
+
+  }
+}

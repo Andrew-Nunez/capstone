@@ -58,5 +58,5 @@ FLOW CHART:
 
 
 Wire Frame:
-![alt text](c:\Users\Andrew\Desktop\Wireframe.pdf)
+![alt text](Wireframe.pdf)
 

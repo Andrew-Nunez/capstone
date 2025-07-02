@@ -1,6 +1,6 @@
 import html from "html-literal";
 
-export default () => html`
+export default (state) => html`
 <!-- <section id="jumbotron">
     <h2 class="archivo-black-regular">
       SavvyCoders JavaScript Fullstack Bootcamp

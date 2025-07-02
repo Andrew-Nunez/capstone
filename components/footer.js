@@ -1,1 +1,5 @@
-<footer>LIQID TRADING</footer>
+import html from "html-literal";
+
+export default () => html`
+  <footer>LIQID TRADING</footer>
+`;
