@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import user from "./controllers/users.js";
+import users from "./controllers/users.js";
 
 // Load environment variables from .env file
 dotenv.config();
