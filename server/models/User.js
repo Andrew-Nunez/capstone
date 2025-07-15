@@ -10,8 +10,8 @@ const userSchema = new mongoose.Schema({
     required: true
   },
   time: {
-    type: String,
-    enum: ["Asian Session", "London Session", "New York Session"]
+    type: [String]
+    // enum: ["Asian Session", "London Session", "New York Session"]
   }
 });
 

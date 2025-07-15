@@ -24,10 +24,10 @@
 
 import html from "html-literal";
 
-export default () => html`
+export default state => html`
   <div class="floatingBox">
     <h4>Who Are You?</h4>
-    <form action="#" method="POST">
+    <form>
       <label for="name">Name:</label><br />
       <input type="text" id="name" name="name" required /><br /><br />
 
@@ -36,21 +36,25 @@ export default () => html`
 
       <p>Within which window of time are you regularly available? (Mon–Fri)</p>
       <label>
-        <input type="checkbox" name="time[]" value="10pm-2am" />
+        <input type="checkbox" name="time" value="Asian Session" />
         10PM–2AM </label
       ><br />
 
       <label>
-        <input type="checkbox" name="time[]" value="2am-6am" />
+        <input type="checkbox" name="time" value="London Session" />
         2AM–6AM </label
       ><br />
 
       <label>
-        <input type="checkbox" name="time[]" value="6am-10am" />
+        <input type="checkbox" name="time" value="New York Session" />
         6AM–10AM </label
       ><br /><br />
 
-      <button type="submit">Submit</button>
+      <input type="submit" value="submit" />
     </form>
+    ${state.users.map(user => {
+      return `<p> ${user.name} ${user.location} ${user.time.join(" & ")}
+      </p>`;
+    })}
   </div>
 `;
