@@ -1,0 +1,162 @@
+main {
+  text-align: center;
+  margin: 0 150px 0 150px;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(68, 65, 65);
+}
+
+.nav-bar {
+  color: antiquewhite;
+}
+
+h1,
+p {
+  color: antiquewhite;
+}
+
+h1 {
+  font-family:;
+}
+
+h1 {
+  font-family: "Splash", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+  color: rgb(159, 137, 15);
+}
+
+nav:hover {
+  color: blue;
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+
+.nav-bar ul li {
+display: inline-block;
+}
+
+
+
+
+footer{
+  color: antiquewhite;
+}
+
+
+h1,
+p,
+h2,
+main,
+nav,
+h3,
+p {
+  text-align: center
+  ;
+}
+
+
+
+body{
+  background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.floatingBox{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
+
+.floatingBox2{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
+
+
+.floatingBox3{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  padding: 150px;
+  border-radius: 780px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: max-content;
+box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+
+
+
+@media (min-width: 550px) {
+nav > ul {
+    background-color: rgba(0, 0, 0, 0.833);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 15px 10px 15px;
+    margin-left: 0px !important;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+  }
+
+  nav > .fa-bars {
+    display: none;
+  }
+
+  nav{
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+  }
+
+  body{
+    padding-top: 50px;
+
+  }
+}
